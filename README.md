@@ -1,9 +1,3 @@
-# Fabric Example Mod
+# MC-198678 Fix
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Fix baby piglin item duping bug by preventing dead baby piglin from trying to consume off-hand item after getting the fatal damage
