@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "mc-198678-fix",
+  "version": "${version}",
+
+  "name": "MC-198678 Fix",
+  "description": "Stop baby piglin doop",
+  "authors": [
+    "Fallen_Breath"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "stopbuggy.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
