@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "MC-198678 Fix",
-  "description": "Stop baby piglin doop",
+  "description": "Stop baby piglin dooping",
   "authors": [
     "Fallen_Breath"
   ],
